@@ -1,0 +1,11 @@
+/* pages/map/map.wxss */
+.moveToLocation {
+  height: 10%;
+  display: flex;
+  align-items: left;
+} 
+.includePoints {
+  height: 10%;
+  display: flex;
+  align-items: left;
+} 
