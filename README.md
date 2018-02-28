@@ -1,2 +1,0 @@
-# startGit
-描述
