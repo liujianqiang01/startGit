@@ -2,8 +2,8 @@
   "pages": [
     "pages/map/map",
     "pages/index/index",
-    "pages/logs/logs"
-   
+    "pages/publishmsg/publishmsg",
+    "pages/chatTools/chatTools"
   ],
   "window": {
     "backgroundTextStyle": "light",

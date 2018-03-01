@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wx1a23166416918cfc",
-	"projectname": "reslib",
+	"projectname": "resource",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

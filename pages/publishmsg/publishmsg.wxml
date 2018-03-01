@@ -1,0 +1,14 @@
+<form bindsubmit="submit" bindreset="Reset">
+  <view >
+    <label><input name="tatil"  placeholder="标题：" /></label>
+  </view>
+  <view>
+    <view></view>
+    <label><input name="detail"  placeholder="描述：" /></label>
+  </view>
+  <view style="display:flex;">
+    <button  formType="submit" >登录</button>
+    <button  formType="reset" >重置</button>
+  </view>
+</form>
+<view class="errod">{{tip}}</view>
