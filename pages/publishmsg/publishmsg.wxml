@@ -7,7 +7,7 @@
     <label><input name="detail"  placeholder="描述：" /></label>
   </view>
   <view style="display:flex;">
-    <button  formType="submit" >登录</button>
+    <button  formType="submit" >发布</button>
     <button  formType="reset" >重置</button>
   </view>
 </form>

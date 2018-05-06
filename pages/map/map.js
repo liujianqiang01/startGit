@@ -18,9 +18,10 @@ Page({
   onLoad: function () {
     var that = this;
 
- //   that.setData({
-   //   url: app.globalData.url
+    //that.setData({
+    //  url: app.globalData.url
     //})
+    getReq(that);
     countdown(that);
     var data = JSON.stringify({
       page: 1,
@@ -125,7 +126,7 @@ function countdown(that) {
  var timer = setTimeout(function () {
    getReq(that)
     countdown(that);
-  }, 3000);
+  }, 5000);
 };
 
 //获取后台坐标参数
