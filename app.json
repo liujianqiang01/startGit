@@ -3,7 +3,8 @@
     "pages/map/map",
     "pages/index/index",
     "pages/publishmsg/publishmsg",
-    "pages/chatTools/chatTools"
+    "pages/chatTools/chatTools",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,18 @@
+<view class='content'>  
+      <view>标题：{{markers.placeTitle}}</view>
+      <view class='content-item' wx:for="{{markers.details}}" bindtap=''wx:key="item" >  
+        <view class='content-item-text'>  
+          <text>{{item.detail_content}}</text>  
+        </view>  
+      </view>
+      <view>{{markers.placeContent}}</view>
+</view> 
+
+
+<modal class="modal" hidden="{{hidden}}" title="添加描述" confirm-text="确认" bindconfirm="confirm" no-cancel="true">  
+    <form bindsubmit="evaSubmit">  
+        <textarea bindinput="bindinput" class='text' placeholder="请输入描述" />  
+    </form>  
+    <span bindtap="cancel" class="close"></span>  
+</modal>
+<button type="primary"  hidden="{{addHidden}}" size="" bindtap="addDatile">添加</button>

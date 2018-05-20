@@ -81,7 +81,7 @@ Page({
     let marker = {
       id: point.id || 0,
       name: point.placeName || '',
-      title: point.placeName || '',
+      title: point.placeTitle || '',
       latitude: latitude,
       longitude: longitude,
       iconPath:  point.placeIconPath,
@@ -93,7 +93,7 @@ Page({
       width: 30,
       height: 30,
       callout: {      
-        content: point.placeContent,
+        content: point.placeTitle,
         color: "#F8F8FF",
         fontSize: "12",
         borderRadius: "10",
@@ -102,6 +102,7 @@ Page({
         display: "ALWAYS"   
       }
     };
+    marker.id = point.id;
     return marker;
   },
   sendMsg(){
@@ -115,8 +116,10 @@ Page({
     })
   },
   //点击标记点时触发
-   markertap(){
-    console.log("click me");
+  markertap(e){
+    wx.navigateTo({
+      url: '../detail/detail?markeId='+e.markerId
+    })
   }
   
 })

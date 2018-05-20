@@ -18,6 +18,7 @@ Page({
         tip: '提示：标题不能为空！',
       })
     } else {
+      console.log(e.detail.value.detail)
      detail = e.detail.value.detail;
      tatil = e.detail.value.tatil;
       var that = this; 

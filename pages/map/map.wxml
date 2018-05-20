@@ -7,10 +7,10 @@ longitude ="{{longitude}}"
 controls="{{controls}}" 
 show-location bindregionchange="regionchange" 
 style="width: 100%; height: {{view.Height-100}}px;"
-bindmarkertap="markertap"> 
+> 
 </map>
- <button type="primary"  size="mini" bindtap="sendMsg">发布</button>
- <button type="primary"  size="mini" ></button>
-  <button type="primary"  size="mini" bindtap="chatTools">消息</button>
+ <button type="primary"  size="" bindtap="sendMsg">发布</button>
+ <!-- <button type="primary"  size="mini" ></button> -->
+  <!-- <button type="primary"  size="mini" bindtap="chatTools">消息</button>
   <button type="primary"  size="mini" ></button>
-  <button type="primary"  size="mini" bindtap="sendMsg2">我的</button>
+  <button type="primary"  size="mini" bindtap="sendMsg2">我的</button> -->
